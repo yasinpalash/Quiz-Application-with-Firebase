@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "936985491448",
+    "project_id": "decisive-plasma-390619",
+    "storage_bucket": "decisive-plasma-390619.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936985491448:android:416704a6908caa8195480d",
+        "android_client_info": {
+          "package_name": "com.example.quizapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv_kudjV-xnPzleiDiSyTBC3Mpi_L5RBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
