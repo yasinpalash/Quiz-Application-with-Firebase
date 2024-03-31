@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quizapp/admin/admin_screen/login_screen.dart';
 import 'package:quizapp/screens/home_screen.dart';
 
 class QuizApp extends StatelessWidget {

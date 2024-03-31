@@ -1,11 +1,8 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:quizapp/screens/question_screen.dart';
-
 import '../utility/image_path.dart';
 import '../widgets/categories_card.dart';
+import '../widgets/profile.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -27,45 +24,11 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               Stack(
                 children: [
-                  Container(
-                    height: 220,
-                    padding: const EdgeInsets.only(left: 20, top: 50),
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF2a2b31),
-                      borderRadius: BorderRadius.only(
-                          bottomLeft: Radius.circular(35),
-                          bottomRight: Radius.circular(35)),
-                    ),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(60),
-                          child: Image.asset(
-                            ImagesPath.profile,
-                            height: 50,
-                            width: 50,
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 30,
-                        ),
-                        const Padding(
-                          padding: EdgeInsets.only(top: 10),
-                          child: Text(
-                            'Yasin Mia Palash',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
+                  const Profile(),
+
                   Container(
                     width: MediaQuery.of(context).size.width,
+
                     margin:
                         const EdgeInsets.only(top: 120, left: 20, right: 20),
                     decoration: BoxDecoration(
@@ -76,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         Image.asset(
                           ImagesPath.banner,
                           height: 240,
-                          width: 200,
+                          width: 150,
                         ),
                         const Text(
                           "Play Quiz by\n guessing the image",
@@ -227,3 +190,4 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+

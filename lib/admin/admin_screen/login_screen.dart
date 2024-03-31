@@ -112,12 +112,8 @@ class _AdminLoginState extends State<AdminLogin> {
                               child: Center(
                                 child: TextFormField(
                                   controller: passTEController,
-                                  validator: (value) {
-                                    if (value == null || value.isEmpty) {
-                                      return "Please Enter password";
-                                    }
-                                    return null;
-                                  },
+                                  validator: (value)=> value?.isEmpty ?? true ? 'Please Enter Password' : null,
+                                  obscureText: true,
                                   decoration: const InputDecoration(
                                       border: InputBorder.none,
                                       hintText: "Password",
