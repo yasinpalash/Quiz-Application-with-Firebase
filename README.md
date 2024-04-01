@@ -2,15 +2,19 @@
 
 Welcome to the Epic Quiz App repository! This project encompasses the development of a comprehensive quiz application using Flutter for the user interface and Firebase for backend services. The app includes features for users to participate in quizzes across various categories and an admin panel for managing quizzes and categories.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **User App**: Allows users to:
+  - Participate in quizzes across multiple categories.
+  - View their scores and performance history.
+  - Enjoy a user-friendly interface designed with Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+- **Admin Panel**: Offers administrators the ability to:
+  - Manage quiz questions and answers.
+  - Organize quiz categories.
+  - Monitor user activity and performance.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Firebase Integration**: Utilizes Firebase for:
+  - Real-time updates to ensure seamless user experiences.
+  - Secure authentication and data storage.
+  - Easy backup and recovery of quiz data.
