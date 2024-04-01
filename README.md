@@ -1,4 +1,4 @@
-# quizapp
+#Quiz App with Flutter & Firebase
 
 A new Flutter project.
 
