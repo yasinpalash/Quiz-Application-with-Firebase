@@ -1,4 +1,4 @@
-# Quiz App with Flutter & Firebase
+# QuizSphere
 
 Welcome to the Epic Quiz App repository! This project encompasses the development of a comprehensive quiz application using Flutter for the user interface and Firebase for backend services. The app includes features for users to participate in quizzes across various categories and an admin panel for managing quizzes and categories.
 
